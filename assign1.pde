@@ -50,7 +50,7 @@ void draw() {
       totalScore =totalScore -50; 
       //set possibility of 777
       //caculation(specificP = s)
-      //s + (1-x)*(1/216) = 1/10
+      //s + (1-s)*(1/216) = 1/10
       //s = 0.095813953
       int result = machine.probability(0.095813953); 
          if (result > 0){                        //result = 1
